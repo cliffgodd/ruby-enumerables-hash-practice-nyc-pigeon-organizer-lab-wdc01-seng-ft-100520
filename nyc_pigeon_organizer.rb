@@ -5,10 +5,10 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         if !final_array[name] = {}
         end
-        if !final_array[name][key]
-          !final_array[name][key] = []
+        if !final_array[name][keys]
+          !final_array[name][keys] = []
         end
-        final_array[name][key].push(inner_key.to_s)
+        final_array[name][keys].push(inner_key.to_s)
       end
     end
   end
